@@ -1,0 +1,459 @@
+/* ----google-font---- */
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,400;1,700&family=Poppins:ital,wght@0,400;0,500;1,300&display=swap');
+
+/*--- body-style----- */
+body{
+    padding: 0;
+    margin:auto;
+    font-family: 'Heebo', sans-serif;
+    font-size: 16px;
+}
+.container{
+    width: 1040px;
+    padding: 30px;
+    background-color: #ffffff;
+    margin: auto;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+/*--- header-style---- */
+nav h1 {
+    font-weight: 800;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {position: absolute;right: 31px;display: flex;}
+
+nav ul li {
+    list-style: none;
+    margin-left: 56px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #595151;
+    font-weight: 600;
+}
+
+
+/*---- main-style---- */
+.journey {
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+
+.journey-description{
+    margin-top: 40px;
+}
+
+.journey-description h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+.journey-description p {
+    letter-spacing: 1px;
+    font-size: 19px;
+    color: #615151;
+}
+
+.journey-description button {
+    padding: 9px 50px;
+    border: 1px solid tomato;
+    background:tomato ;
+    border-radius: 20px;
+    color: #fff;
+    margin-top: 29px;
+    font-size: 21px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.journey-description button:hover {
+    background: #ffff;
+    color: black;
+    padding: 9px 70px;
+    transition: 0.5;
+    margin-left: 20px;
+}
+
+.journey-description i {
+    margin-left: 10px;
+}
+
+.journey-image img{
+    float: right;
+    background-image: url(images/bg.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    transition: 0.5s;
+}
+
+.journey-image img:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+/* ---logos-styl---- */
+ .logos {
+    display: grid;
+    grid-template-columns: repeat(7,1fr);
+    padding: 33px 24px;
+    align-items: center;
+    grid-column-gap: inherit;
+    box-shadow: 1px 1px 5px 2px #ece8e8;
+    border-radius: 10px;
+}
+
+
+/*---- product-style----- */
+h1.procuct-title {
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Font Awesome 5 Pro';
+    font-weight: 900;
+    color: #4f4545;
+}
+
+.our-products{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 16px;
+    grid-row-gap: 30px;
+}
+
+.product {
+    padding: 21px 18px;
+    box-shadow: 0px -1px 20px 0px #e0dbdb;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 300px;
+}
+
+.product-info h1 {
+    font-size: 32px;
+    margin: 12px 0px;
+}
+
+.product-info h2 {
+    font-size: 25px;
+    font-weight: 100;
+    padding: 0;
+    margin: 0;
+    color: #3f3c3c;
+    padding-bottom: 11px;
+}
+
+.product-info ul {
+    display: contents;
+}
+
+.product-info ul li {
+    list-style: none;
+    float: left;
+    display: contents;
+}
+
+.product-info ul li a {
+    text-decoration: none;
+    color: orange;
+    margin-right: 5px;
+    font-size: 11px;
+    }
+
+.product-info p {
+    color: #676262;
+    font-size: 16px;
+    line-height: 23px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    margin: 0;
+}
+
+#rate {
+    color: gray;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 6px;
+}
+a#product-icon {
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+    height: 0px;
+    text-decoration: none;
+    color:orange;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+       /*---------
+       login-style
+       ------------- */
+.from {
+    margin-top: 80px;
+    margin: auto;
+}
+
+.login-from {
+    text-align: center;
+    width: 335px;
+    padding: 47px 27px;
+    margin: auto;
+    border-radius: 18px;
+    background: #6D6D6D;
+}
+
+.login-input input {
+  font-size: 16px;
+  padding: 5px 18px;
+}
+
+.login-from button {
+    border: navajowhite;
+    display: block;
+    margin: auto;
+    font-size: 18px;
+    padding: 10px 69px;
+    background: tomato;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.login-input input {
+    text-align: center;
+    margin: 9px 0px;
+    border: none;
+    border-bottom: 1px solid orange;
+    font-weight: 600;
+    padding: 8px 56px;
+    background: transparent;
+}
+
+.login-from h3 {
+    font-size: 1.5em;
+    margin-bottom: 13px;
+    margin-top: 27px;
+    color: white;
+}
+
+.login-from span {
+    color: #e6d8d8;
+    font-weight: 600;
+}
+
+.login-from i {
+    color: rgb(235, 114, 93);
+    font-size: 27px;
+    margin-left: 30px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+i.fab.fa-google-play {
+    margin-left: -6px;
+}
+button#login-button {
+    margin-bottom: 20px;
+    border: 1px solid black;
+    padding: 10px 129px;
+    font-weight: 700;
+    border-radius: 5px;
+    background: gray;
+}
+
+.login-input button:last-child {
+    margin-top: 19px;
+}
+
+#sing-up{
+    font-size: 16px;
+    color: orange;
+}
+
+.login-input button:last-child:hover{
+    background:rgb(218, 45, 14);
+    cursor: pointer;
+}
+
+.login-input input:focus{
+    outline: none;
+    color: #fff
+}
+
+.login-input input::placeholder{
+    color: white;
+}
+
+
+/*--------------
+ footer-atyle
+ ------------------ */
+ footer {
+    background: green;
+    height: 325px;
+    margin: auto;
+    display: grid;
+}
+
+.footer-item {
+    width: 326px;
+    margin: auto;
+    text-align: center;
+}
+
+.footer-item h1 {
+    color: #e4e2e2;
+    font-size: 30px;
+    letter-spacing: 2px;
+    font-weight: 700;
+}
+
+.form-icon i:hover{
+    color: #fff;
+}
+
+.footer-item p {
+    color: #c3b0b0;
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 35px;
+}
+
+.footer-item a {
+    color: orange;
+    margin-left: 14px;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #574e4e;
+    padding: 8px;
+}
+
+.footer-icon {
+    width: 204px;
+    margin: auto;
+}
+
+i.fab.fa-google-plus {
+    margin-left: 0;
+}
+
+.footer-icon a:first-child {
+    margin-left: 0;
+}
+
+/*------ phone-respondiv---- */
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 100%;
+         margin: auto; 
+         align-items: center;
+        }
+    nav{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul{
+        display:inline;
+        position: relative;
+       
+    }
+    nav ul li{
+       margin-top: 19px;
+       
+    }
+    .journey {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+        text-align: center;
+      
+     }
+     .journey-image img{
+         width: 95%;
+     }
+     .logos {
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        grid-row-gap: 20px;
+        align-items: center;
+     }
+     .journey-description{
+        margin-bottom: 40px;
+     }
+     .logos img{
+         margin: auto;
+     }
+     .our-products{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: auto;
+    }
+    .login-from {
+        margin-left: 10px;
+    }
+    
+}
+
+
+/*------ teb-responsiv----- */
+@media only screen and (min-width: 600px)and (max-width: 992px) {
+    .container{
+        width: 100%;
+         margin: auto; 
+         align-items: center;
+        }
+    nav{
+        display: inline;
+        justify-content: center;
+        text-align: center;
+    }
+    nav ul{
+        display:inline;
+        position: relative;
+       
+    }
+    nav ul li{
+       margin-top: 19px;
+       
+    }
+    .journey {
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 30px;
+        text-align: center;
+      
+     }
+     .journey-image img{
+         width: 95%;
+     }
+     .logos {
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
+        grid-row-gap: 20px;
+        align-items: center;
+     }
+     .journey-description{
+        margin-bottom: 40px;
+     }
+     .logos img{
+         margin: auto;
+     }
+    .our-products{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin: auto;
+    }
+    .login-from {
+        margin-left: 10px;
+    }
+    
+}
